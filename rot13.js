@@ -29,7 +29,7 @@
     //browser or node
     if (typeof module !== 'undefined' && module.exports) {
         module.exports = rot13;
-    } else if (window) {
+    } else if (typeof window !== 'undefined') {
         window.rot13 = rot13;
     }
 

@@ -1,0 +1,9 @@
+{
+  "name": "rot13",
+  "scripts": {
+    "test": "cd test && mocha"
+  },
+  "dependencies": {
+    "mocha": "^2.2.5"
+  }
+}
